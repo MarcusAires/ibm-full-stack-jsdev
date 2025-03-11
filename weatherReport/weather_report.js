@@ -10,7 +10,7 @@ function showweatherDetails(e) {
             const weatherInfo = document.getElementById('weatherInfo');
             weatherInfo.innerHTML = `<h2>Clima em ${data.name}</h2>
         <p>Temperatura: ${data.main.temp} &#8451;</p>
-        <p>Clima: ${data.weather[0].description}</p>`;
+        <p>Previsão do tempo: ${data.weather[0].description}</p>`;
         })
 }
 
